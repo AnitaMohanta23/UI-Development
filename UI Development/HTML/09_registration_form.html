@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration-Form</title>
+</head>
+<body>
+    <!-- <form method="GET"> -->
+        <form method="POST" action="" target="_blank" autocomplete="off" novalidate enctype="">
+        <h2>Registration Form</h2>
+        <label for="fn">First Name:-</label>
+        <input type="text" name="fname" id="fn" requirediminlength="2" maxlength="7"><br><br>
+        <label>Last Name:-</label>
+        <input type="text" name="Iname"><br><br>
+        <label>Password:-</label>
+        <input type="password" name="pws"><br><br>
+        <label>Email:-</label>
+        <input type="text" name="email"><br><br>
+        <label>Phn no:-</label>
+        <input type="number" name="phn no" min="0" max="100" step="5"><br><br>
+        <label>Gender:-</label>
+        <input type="radio" name="gender" value="male">Male
+        <input type="radio" name="gender" value="female">Female
+        <input type="radio" name="gender" value="others">Others <br><br>
+        <label>Country:-</label>
+        <select>
+            <option>--Select Country--</option>
+            <option value="Ind" >India</option>
+            <option value="US" >US</option>
+            <option value="UK" >UK</option>
+            <option value="UP" >UP</option>
+            <option value="Aus" >Astralia</option>
+            <option value="Pak" >Pakistan</option>
+
+        </select><br><br>
+
+        <label>Skills :-</label>
+        <input type="checkbox" name="skills" value="html" checked>HTML
+        <input type="checkbox" name="skills" value="css">CSS
+        <input type="checkbox" name="skills" value="js">JS
+        <input type="checkbox" name="skills" value="react">React
+        <input type="checkbox" name="skills" value="python">Python<br><br>
+
+        <label>Choose Resume :-</label>
+        <input type="file" name="resume"><br><br>
+        <input type="text" name="readonly" value="we can't type here" readonly>
+
+        <textarea></textarea><br><br>
+        <input type="submit" name="" value="Register" disabled>
+        <input type="reset" name="" value="Cancel">
+
+
+    </form>
+    
+</body>
+</html>

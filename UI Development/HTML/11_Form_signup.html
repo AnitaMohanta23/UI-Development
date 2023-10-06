@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Html form</title>
+    <style>
+      body {
+        text-align: center;
+        padding-top: 16%;
+      }
+      form {
+        /* text-align: center; */
+        border: 1px solid whitesmoke;
+        border-radius: 10px;
+        background-color: azure;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- form  -->
+    <form action="">
+      <h1>SingUp Form</h1>
+      <!-- element: it is defind what to show in browser -->
+      <!-- attribute: it defind how to behave in browser -->
+      <label for="first-name">First Name:</label>
+      <input type="text" name="first-name" /><br /><br />
+      <!-- lname -->
+      <label for="first-name">Last Name:</label>
+      <input type="text" name="last-name" /><br /><br />
+      <!-- gender -->
+      <label for="gender">Gender: </label>
+
+      <select name="Ggender" id="">
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+        <option value="Other">Other</option></select
+      ><br /><br />
+
+      <!-- Male -->
+      <!-- <input type="radio" name="Gender" id="gender" value="Male" />
+    <label for="gender">Male</label><br /> -->
+      <!-- female -->
+      <!-- <input type="radio" name="Gender" id="gender" value="Female" />
+    <label for="gender">Female</label><br /> -->
+      <!-- other -->
+      <!-- <input type="radio" name="Gender" id="gender" value="Other" />
+    <label for="gender">Other</label><br />  -->
+
+      <!-- email -->
+      <label for="email">Email Id:</label>
+      <input type="email" name="email" id="" /><br /><br />
+      <!-- address -->
+      <label for="Address">Address:</label>
+      <textarea name="Address" id="" cols="30" rows="3"></textarea><br /><br />
+      <!-- submit -->
+      <div>
+        <button>Reset</button>
+        <button>Submit</button>
+      </div>
+      <br /><br />
+    </form>
+  </body>
+</html>
