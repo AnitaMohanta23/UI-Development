@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attribute selector-css</title>
+    <style>
+    form{
+        border: 2px solid gray;
+        width: 50%;
+        padding: 10px;
+        margin: 100px 400px;
+        text-align: center;
+        background-color: aquamarine;
+        box-shadow: 1px 1px 10px blue;
+
+    }
+
+    /* Attribute selector */
+    /* 1. has attr [attr-name] */
+    [type]{
+        width: 50%;
+        padding: 10px;
+        margin:10px ;
+    }
+    /*2. Attr value equals to :-[attr-name="attr-value"] */
+    [type="submit"]{
+        width: 51.3%;
+    }
+    /* 3. Attr value starts with - [atr-name ^ ="attr-value"] */
+    [placeholder^="E"]{
+        border-radius: 25px;
+    }
+        /* 4. Attr value ends with - [atr-name $ ="attr-value"] */
+        [name$="n"]{
+        border-radius: 25px;
+        cursor: pointer;
+        background-color: palevioletred;
+        color: aliceblue;
+    }
+        /* 5. Attr value starts with - [atr-name * ="attr-value"] */
+        [name*="n"]{
+        border: none;
+    }
+    input::placeholder{
+        color: greenyellow;
+        border: 2px solid;
+        border-radius: 25px;
+    }
+
+
+</style>
+</head>
+<body>
+    <form>
+        <h2>Login</h2>
+        <input type="text" name="Uname" placeholder="Enter Uname">
+        <input type="password" name="pswd" placeholder="Enter password">
+        <input type="submit" name="login" value="submit">
+    </form>
+    
+</body>
+</html>
