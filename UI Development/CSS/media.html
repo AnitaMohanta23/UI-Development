@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>media query</title>
+    <style>
+      section,
+      div {
+        border: 1px solid red;
+        padding: 10px;
+        margin: 10px;
+        color: rgb(44, 44, 42);
+        border-radius: 10px;
+      }
+      div {
+        background-color: aqua;
+      }
+      section {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+      }
+      @media only screen and (max-width: 576px) {
+        section {
+          grid-template-columns: repeat(1, 1fr);
+          background-color: rgb(102, 255, 0);
+        }
+        div {
+          border: 10px solid red;
+        }
+      }
+      @media only screen and (min-width: 576px) and (max-width: 750px) {
+        section {
+          grid-template-columns: repeat(2, 1fr);
+          background-color: rgb(226, 135, 6);
+        }
+      }
+      @media only screen and (min-width: 750px) and (max-width: 950px) {
+        section {
+          grid-template-columns: repeat(3, 1fr);
+          background-color: yellow;
+        }
+      }
+      @media only screen and (min-width: 950px) and (max-width: 1500px) {
+        section {
+          grid-template-columns: repeat(4, 1fr);
+          background-color: rgb(0, 195, 255);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <div>Small device</div>
+      <div>Medium device</div>
+      <div>Large device</div>
+      <div>Extra large device</div>
+    </section>
+  </body>
+</html>
