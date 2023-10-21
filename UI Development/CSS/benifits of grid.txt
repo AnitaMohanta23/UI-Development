@@ -1,0 +1,6 @@
+Benefits of CSS Grid
+CSS Grid is very flexible and responsive. It makes it 
+easy to create two-dimensional layouts. CSS Grid also easy 
+to use and is supported by most web browsers. The CSS grid makes
+your mark-up cleaner (in your HTML code) and gives you a lot
+more flexibility.

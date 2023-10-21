@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Transform-Property CSS3</title>
+    <style>
+      section {
+        border: 2px solid red;
+        padding: 10px;
+        margin: 10px;
+      }
+      section:first-child {
+        transform: translate(100px, 100px);
+      }
+      section:nth-child(2) {
+        width: 200px;
+        height: 90px;
+        text-align: center;
+        margin: 0 300px;
+      }
+      section:nth-child(2):hover {
+        transform: scale(1.5, 1.5);
+        cursor: pointer;
+        width: 200px;
+        height: 90px;
+        text-align: center;
+        margin: 0 300px;
+        background-color: aqua;
+        border-radius: 30px;
+      }
+      /* section:nth-child(3) {
+        transform: rotate(45deg);
+        width: 100px;
+        height: 50px;
+        background-color: blue;
+      } */
+      section:nth-child(4) {
+        /* transform: skew(45deg); */
+        width: 100px;
+        height: 50px;
+        background-color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <section>Transform:translate</section>
+    <!-- <section>Transform:scale</section>
+    <section>Transform:rotate</section>
+    <section style="transform: skew(20deg)">Transform:skew</section> -->
+  </body>
+</html>

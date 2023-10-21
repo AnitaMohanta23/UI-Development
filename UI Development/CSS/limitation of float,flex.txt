@@ -1,0 +1,20 @@
+1.A common problem with float-based layouts is that the floats' container 
+doesn't want to stretch up to accomodate the floats. If you want to add, say,
+a border around all floats (ie. a border around the container) you'll have to
+command the browsers somehow to stretch up the container all the way.
+
+
+
+2.Use float when you want to pull an element to the side of
+ a containing element while allowing other content to freely
+  flow around it.
+
+
+3.flex- Being one-dimensional, Flexbox only deals with either 
+columns or rows. This system works for smaller layouts, but 
+cannot render complex displays such as text or document-centric
+properties that enable floats and columns.
+
+4.One of the major drawbacks of using flexbox is performance issues.
+ The use of flexbox 
+can increase the page loading time if you have a larger project. 

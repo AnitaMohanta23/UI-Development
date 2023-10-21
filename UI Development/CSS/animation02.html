@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heart animation</title>
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: palevioletred;
+        }
+
+        .heart-container {
+            text-align: center; /* Center the contents horizontally */
+        }
+
+        .heart {
+            background: red;
+            text-align: center;
+            position: relative;
+            height: 100px;
+            width: 100px;
+            /* Animation */
+            transform: rotate(-45deg) scale(1);
+            animation: pulse 2s linear infinite;
+            display: inline-block; /* Make the heart and text appear on the same line */
+        }
+
+        .heart::after {
+            background: inherit;
+            border-radius: 50%;
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: 0;
+            height: 100px;
+            width: 100px;
+            z-index: 1; /* Place the heart shape in front */
+        }
+
+        .heart::before {
+            background: inherit;
+            border-radius: 50%;
+            content: '';
+            position: absolute;
+            top: 0;
+            right: -50%;
+            height: 100px;
+            width: 100px;
+            z-index: 1; /* Place the heart shape in front */
+        }
+
+        @keyframes pulse {
+            0% {
+                transform: rotate(-45deg) scale(1);
+                opacity: 0;
+            }
+            50% {
+                transform: rotate(-45deg) scale(1.3);
+                opacity: 1;
+            }
+            100% {
+                transform: rotate(-45deg) scale(1);
+                opacity: 1;
+            }
+        }
+
+        p {
+            text-align: center;
+            font-size: 24px;
+            margin-top: 20px;
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="heart-container">
+        <div class="heart"></div>
+        <p>&hearts; </p>
+        <p>Anita</p>
+    </div>
+</body>
+</html>

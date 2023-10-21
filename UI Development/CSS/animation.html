@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Move an element across the page-Animation-css</title>
+    <style >
+         section{
+            border: 1px solid aqua;
+            width: 100px;
+            height:90px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 90px;
+            animation-name:animate ;
+            animation-delay:1s ;
+            animation-duration:5s ;
+            animation-timing-function:linear ;
+            animation-iteration-count:5 ;
+            position: relative;
+        }
+            @keyframes animate{
+                from{
+                    transform: rotate(0deg);
+                    left: 0px;
+
+                }
+                to{
+                    transform: rotate(360deg);
+                    left: 70%;
+
+                }
+            }
+   
+        div{
+            border: 1px solid palevioletred;
+            width: 100px;
+            height:90px;
+            text-align: center;
+            line-height: 90px;
+            animation-name: ToMove;
+            animation-delay:0.9s ;
+            animation-duration:5s ;
+            animation-timing-function:cubic-bezier(.53,.11,.91,.62) ;
+            animation-iteration-count:5 ;
+            position: relative;
+        }
+            @keyframes ToMove{
+                0%{
+                    left: 0px;
+                    top: 0px;
+                    background-color: orchid;
+
+                }
+                25%{
+                    left: 400px;
+                    top: 0px;
+                    background-color: aquamarine;
+
+                }
+
+                50%{
+                    left: 400px;
+                    top: 400px;
+                    background-color: palevioletred;
+
+                }
+                75%{
+                    left: 0px;
+                    top: 400px;
+                    background-color: greenyellow;
+
+                }
+                100%{
+                    left: 0px;
+                    top: 0px;
+                    background-color: violet;
+
+                }
+                
+                
+            }
+        
+    </style>
+</head>
+<body>
+    <section>Rupam</section>
+    <div>Lushi</div>
+    
+</body>
+</html>
