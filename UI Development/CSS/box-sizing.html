@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box-sizing-css</title>
+    <style>
+        section:nth-child(1) {
+            border: 2px solid lawngreen;
+            width: 200px;
+            height: 200px;
+            margin: 10px;
+            padding: 40px;
+            background-color: aquamarine;
+            box-sizing: content-box;
+        }
+
+        section:nth-child(2) {
+            border: 2px solid lawngreen;
+            width: 200px;
+            height: 200px;
+            margin: 10px;
+            padding: 50px;
+            background-color: powderblue;
+            box-sizing: border-box;
+        }
+
+        section {
+            border: 2px solid plum;
+            margin: 10px;
+            padding: 40px;
+            /* box-shadow:2px 2px 20px blueviolet; */
+            box-shadow: rgba(240, 46, 170, 0.4) -5px 5px,
+             rgba(240, 46, 170, 0.3) -10px 10px,
+              rgba(240, 46, 170, 0.2) -15px 15px,
+               rgba(240, 46, 170, 0.1) -20px 20px,
+                rgba(240, 46, 170, 0.05) -25px 25px;
+        }
+    </style>
+</head>
+
+<body>
+    <section>Box-sizing:Content-Box</section>
+    <section>Box-sizing:border-Box</section>
+
+
+</body>
+
+</html>

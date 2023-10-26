@@ -1,0 +1,747 @@
+What is HTML?
+        Ans –:HTML stands for Hyper Text Markup Language.HTML is the language which is used to design the webpages.It is a standard language used for creating and structuring Web pages and it is the standard markup language for creating Web pages.
+
+What are the latest versions of HTML?
+Ans–:HTML5 are the latest versions of HTML.
+
+What is the syntax of HTML?
+Ans–: <!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+
+<h1>Heading</h1>
+<p>paragraph.</p>
+
+</body>
+</html>
+
+
+What is a tag in HTML?
+Ans–:Tag is a piece of markup language.It is used to indicate the beginning and end of an HTML element in an HTML document.
+
+What is an attribute in HTML?
+Ans–:Attribute is a piece of markup language.It is used to adjust the behavior or display of an HTML element.
+Ex–:Attributes can be used to change the color,size etc.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[Date-19.10.23]
+—---------------------------
+
+
+6.What is the difference between HTML and XHTML?
+
+Ans–:
+
+HTML
+XHTML
+HTML stands for Hypertext Markup Language.
+XHTML stands for Extensible Hypertext Markup Language.
+It was developed by Tim Berners-Lee.
+It was developed by W3C i,e World Wide Web Consortium.
+It is extended from SGML.
+It is extended from XML and HTML.
+It is not necessary to close the tags in the order they are opened.
+It is necessary to close the tags in the order they are opened.
+
+
+
+7. What are the types of lists available in HTML?
+Ans–:There are three types of lists available in HTML.i <ul>-Unordered list.
+                                                                                      ii.<ol>-Ordered list.
+                                                                                      iii.<dl>-Description list .
+
+8. What is the use of the <head> tag in HTML?
+Ans–:To define the head section of an HTML document.It contains machine readable information(metadata) about  the document,like its title,scripts,and style sheets.
+
+9. What is the use of the <title> tag in HTML?
+Ans–:The <title> tag defines the title of the document. The title must be text-only,and it is shown in the browser’s title bar or in the page’s tab.
+
+10. What is the use of the <body> tag in HTML?
+Ans–:It is used to define the main content present inside an HTML page.It is the last child of <html> tag.A body tag contains starting as well as an ending tag.
+
+
+Write one HTML doc in list.
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sample HTML List</title>
+</head>
+<body>
+    <h1>Types of Fruits</h1>
+    <ul>
+        <li>Apples</li>
+        <li>Oranges</li>
+        <li>Bananas</li>
+        <li>Grapes</li>
+    </ul>
+
+    <h2>Types of Vegetables</h2>
+    <ol>
+        <li>Carrots</li>
+        <li>Broccoli</li>
+        <li>Tomatoes</li>
+        <li>Spinach</li>
+    </ol>
+
+    <h2>Types of Animals</h2>
+    <ul>
+        <li>Dogs</li>
+        <li>Cats</li>
+        <li>Rabbits</li>
+    </ul>
+
+    <h2>Definition List</h2>
+    <dl>
+        <dt>HTML</dt>
+        <dd>HyperText Markup Language - a standard for creating web pages.</dd>
+
+        <dt>CSS</dt>
+        <dd>Cascading Style Sheets - used for styling the presentation of web documents.</dd>
+
+        <dt>JavaScript</dt>
+        <dd>A programming language commonly used for web development to add interactivity.</dd>
+    </dl>
+
+</body>
+</html>
+
+
+
+
+Date–:20.10.23
+_______________________
+
+
+1. What is the use of the <header> tag in HTML?
+
+Ans:-The <header> tag in HTML is used to define a container for introductory content or a set of navigational links typically found at the top of a web page or within a specific section of a page. It represents a header section for the content it encloses and is a structural element used to organize and mark up the content on a webpage.
+Ex-<header>
+    <h1>My Website</h1>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+
+2.What is the use of the <footer> tag in HTML?
+Ans:-The <footer> tag in HTML is used to define a container for the footer section of a web page or a specific section within a page. It typically contains information that is considered the "footer" of the content, such as copyright information, contact details, links to related pages, and other content relevant to the entire page or a particular section.
+
+
+
+ 3. What is the use of the <nav> tag in HTML?
+Ans–: The <nav> tag in HTML is used to define a section of a web page that contains navigation links. It is a semantic HTML element that helps identify and structure the navigation menu or links on a webpage, making it easier for both users and web browsers to understand the purpose of the content.
+Ex-<nav>
+    <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/services">Services</a></li>
+        <li><a href="/contact">Contact</a></li>
+    </ul>
+</nav>
+
+
+
+ 4. What is the use of the <article> tag in HTML?
+Ans: The <article> tag in HTML is used to define a self-contained, independently distributable piece of content within a web page. It is a semantic HTML element that represents a single article, blog post, news story, comment, or other content that can be distributed or syndicated on its own. The <article> element is used to mark up this type of content, providing structure and meaning to it.
+Ex-
+<article>
+    <h2>Blog Post Title</h2>
+    <p>Published on October 20, 2023 by John Doe</p>
+    </article>
+
+
+ 5. What is the use of <aside> tag in HTML ?
+Ans :---The <aside> tag in HTML is used to define content that is tangentially related to the content around it, often used for sidebars, pull quotes, advertising, or other content that is considered separate from the main content but related to it in some way.
+Ex-
+<aside>
+    <h3>Related Links</h3>
+    <ul>
+        <li><a href="/related-page-1">Related Page 1</a></li>
+        <li><a href="/related-page-2">Related Page 2</a></li>
+    </ul>
+</aside>
+
+
+ 6. What are the versions of HTML?
+Ans::-HTML 1.0 (1993):- This was the first official version of HTML, and it was a very basic markup language with limited elements and features. It laid the foundation for subsequent versions.
+
+HTML 2.0 (1995): -HTML 2.0 introduced several new elements and features, such as forms and tables, which improved the ability to structure and format web content.
+
+HTML 3.2 (1997): -HTML 3.2 was a significant step forward, with support for more styling options and the introduction of frames for layout.
+
+HTML 4.01 (1999):- HTML 4.01 was a more refined version, with a strict and transitional doctype. It introduced better support for cascading style sheets (CSS) and improved form elements.
+
+XHTML 1.0 (2000):- XHTML 1.0 was a reformulation of HTML as an XML application. It was designed to be more consistent and strict in its syntax, making it easier for developers to write clean, well-formed HTML.
+
+HTML5 (2014):-HTML5 is the most recent major version of HTML. It introduced a wide range of new elements, attributes, and APIs, making it more powerful and versatile. HTML5 added native multimedia support (audio and video), semantic elements (like <header>, <nav>, and <article>), and a host of other features to enhance web development and multimedia integration.
+
+
+
+ Write one HTML doc using header, footer, nav, article and aside tag.
+Ans:------
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sample HTML Page</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Website</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <article>
+        <h2>About Us</h2>
+        <p>
+            We are a small and dedicated team, passionate about creating web content that matters.
+        </p>
+    </article>
+
+    <aside>
+        <h2>Latest News</h2>
+        <ul>
+            <li><a href="#">New Product Launch</a></li>
+            <li><a href="#">Upcoming Events</a></li>
+        </ul>
+    </aside>
+
+    <footer>
+        <p>&copy; 2023 My Website</p>
+    </footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Date:-24.10.23
+_____________________
+
+1.What is the use of the <h1> to <h6> tags in HTML?
+
+Ans:-In HTML, the <h1> to <h6> tags are used to define headings within a document. These tags represent six levels of headings, with <h1> being the highest level and <h6> the lowest level.
+Ex-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> my first webpage</title>
+</head>
+<body>
+    <h1>Welcome to Web Development course</h1>
+    <h2>Welcome to Web Development course</h2>
+    <h3>Welcome to Web Development course</h3>
+    <h4>Welcome to Web Development course</h4>
+    <h5>Welcome to Web Development course</h5>
+    <h6>Welcome to Web Development course</h6>
+    
+</body>
+</html>
+
+
+2.  What is the use of the <p> tag in HTML?
+Ans:-In HTML, the <p> tag is used to define paragraphs. It is one of the most fundamental HTML elements for structuring and formatting textual content on a web page. The <p> tag is used to separate blocks of text into paragraphs, providing structure and readability to the content.
+Ex-
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sample Paragraph</title>
+</head>
+<body>
+    <p>This is a simple example of a paragraph in HTML. </p>
+</body>
+</html>
+
+
+ 3.  What is the use of the <a> tag in HTML?
+Ans:-The <a> tag in HTML is used to create hyperlinks, also known as anchor links. Hyperlinks allow you to link to other web pages, resources, or documents, either within your website or on external websites. The <a> tag is a fundamental element for navigation and creating interconnected web content.
+Ex-
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Link </title>
+</head>
+<body>
+    <p>Visit our website:</p>
+    <a href="https://www.github.com">Github.com</a>
+</body>
+</html>
+
+
+ 4. What is the use of the <img> tag in HTML? 
+Ans–:The <img> tag in HTML is used to display images on a web page. It's a fundamental element for adding visual content to your web documents. The <img> tag does not have a closing tag, and it relies on various attributes to specify the source of the image and control its display.
+Ex-
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Example</title>
+</head>
+<body>
+    <h1>Welcome to Our Website</h1>
+    <p>Here's an example image:</p>
+    <img src="lushi.jpg" alt="lushi">
+</body>
+</html>
+
+
+
+5. What is the use of the <form> tag in HTML?
+Ans:-The <form> tag in HTML is used to create an interactive area on a web page where users can input data, which is then typically submitted to a server for processing. Forms are a fundamental element for user interactions, such as submitting search queries, filling out contact forms, creating user accounts, and more.
+Ex-
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Form</title>
+</head>
+<body>
+    <h1>Contact Us</h1>
+    <form action="process_form.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
+
+
+ Write one HTML doc using above tags.
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Web-development</title>
+    <style>
+      form {
+        border: 2px solid;
+        height: 200px;
+        width: 400px;
+        margin-left: 30.3%;
+        padding: 30px 0 0 30px;
+        border-radius: 10px;
+        background-color: pink;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Welcome to Web Development course</h1>
+    <h2>Welcome to Web Development course</h2>
+    <h3>Welcome to Web Development course</h3>
+    <h4>Welcome to Web Development course</h4>
+    <h5>Welcome to Web Development course</h5>
+    <h6>Welcome to Web Development course</h6>
+    
+
+
+    
+    <ul>
+      <li><a href="https://www.google.com">Google</a></li>
+      <li><a href="https://www.microsoft.com">Microsoft</a></li>
+  </ul>
+
+    <p>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit neque
+      delectus dicta, voluptates est quos adipisci? Iusto quos nesciunt error.
+    </p>
+
+    
+
+    <img src="https://www.achieversit.com/assets/images/logo-white.png" />
+        
+        <form>
+
+      <label for="">Enter First-Name :</label>
+      <input type="text" name="fname" placeholder="First Name" /><br />
+      <label for="">Enter Last-Name :</label>
+      <input type="text" name="lname" placeholder="Last Name" /><br />
+      <label for="">Enter Password:</label>
+      <input type="password" name="" id="" placeholder="psw" /><br />
+      <label for="">Phone Number:</label>
+      <input type="number" placeholder="Number" /><br />
+      <label for="email">Enter Email:</label>
+      <input type="email" name="" id="" placeholder="email" /><br /><br />
+      <button>Submit</button>
+      <button>Reset</button>
+    </form>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+Date-:25.10.23
+______________________
+
+
+1. What is the use of the <input> tag in HTML?
+Ans-: The <input> tag in HTML is used to create interactive form controls that allow users to enter data. It is one of the fundamental elements for creating web forms. The type of data input and the specific behavior of the control is determined by the type attribute of the <input> element.
+ 
+2. What is the use of the <button> tag in HTML?
+Ans:-The <button> tag in HTML is used to create interactive buttons on a web page. Buttons are an essential part of web user interfaces, and they provide a visual element that users can click or activate to perform various actions.
+Ex-
+<button type="button">Click Me</button>
+
+
+ 3. What is the use of the <textarea> tag in HTML?
+Ans:-The <textarea> tag in HTML is used to create a multi-line text input field within a web form or as a standalone element. It allows users to enter and edit text that spans multiple lines, making it suitable for tasks where users need to provide longer textual input, such as comments, messages, or other free-form text.
+Ex-
+<textarea name="comments" rows="4" cols="50"></textarea>
+
+
+ 4. What is the use of the <select> tag in HTML?
+Ans:-The <select> tag in HTML is used to create a dropdown list or a select menu, which allows users to choose one option from a list of available options. It is an essential element for creating user-friendly forms and interactive web interfaces.
+Ex-
+<select name="country">
+  <option value="usa">United States</option>
+  <option value="canada">Canada</option>
+  <option value="uk">United Kingdom</option>
+  <option value="australia">Australia</option>
+</select>
+
+
+
+
+ 5.What is the use of the <option> tag in HTML?
+Ans:-The <option> tag in HTML is used in conjunction with the <select> element to define individual options within a dropdown list or select menu. It allows you to specify the available choices that users can select from when interacting with the dropdown. The <option> tag is an essential component for creating structured select menus in HTML forms and other parts of web interfaces.
+Ex-
+<option value="usa">United States</option>
+<option value="canada">Canada</option>
+
+
+
+
+ 6. What is the use of the <label> tag in HTML?
+Ans-:The <label> tag in HTML is used to associate a label with a form control, such as an <input>, <select>, or <textarea> element. The primary purpose of the <label> element is to provide a textual description or caption for a form control, making it more accessible and user-friendly.
+Ex- 
+<label for="username">Username:</label>
+<input type="text" id="username" name="username">
+
+
+
+
+
+
+ 7. What is the use of the <fieldset> tag in HTML?
+Ans:-The <fieldset> tag in HTML is used to group related form controls within a web form. It is typically used in combination with the <legend> element to provide a visual and semantic grouping of form elements. The primary purpose of the <fieldset> and <legend> elements is to improve the organization, accessibility, and usability of forms.
+Ex-
+<fieldset>
+  <legend>Contact Information</legend>
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name"><br>
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email">
+</fieldset>
+
+
+
+
+
+
+ 8. What is the use of the <legend> tag in HTML? 
+Ans:-The <fieldset> tag in HTML is used to group related form controls within a web form. It is typically used in combination with the <legend> element to provide a visual and semantic grouping of form elements. The primary purpose of the <fieldset> and <legend> elements is to improve the organization, accessibility, and usability of forms.
+Ex-
+<fieldset>
+  <legend>Contact Information</legend>
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name"><br>
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email">
+</fieldset>
+
+
+
+
+Write one HTML doc using above tags.
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examples</title>
+    <style>
+    body {
+        background-color: plum;
+    }
+
+
+    form {
+        background-color: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+    h1 {
+            color: #333; 
+            
+        }
+
+
+        fieldset {
+            border: 2px solid #00ff73; 
+            background-color:aquamarine;
+        }
+
+
+        legend {
+            color: #4c00ff; 
+        }
+
+
+    button[type="submit"] {
+        background-color: #00c3ff;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+</style>
+</head>
+<body>
+    <h1>Contact Information</h1>
+
+
+    <form action="#" method="post">
+        <fieldset>
+            <legend>Contact Details</legend>
+
+
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" cols="50" required></textarea>
+        </fieldset>
+
+
+        <fieldset>
+            <legend>Additional Information</legend>
+
+
+            <label for="country">Country:</label>
+            <select id="country" name="country">
+                <option value="usa">United States</option>
+                <option value="canada">Canada</option>
+                <option value="uk">United Kingdom</option>
+                <option value="australia">Australia</option>
+            </select><br><br>
+
+
+            <label>Subscribe to Newsletter:</label>
+            <input type="radio" id="subscribe-yes" name="subscribe" value="yes">
+            <label for="subscribe-yes">Yes</label>
+            <input type="radio" id="subscribe-no" name="subscribe" value="no">
+            <label for="subscribe-no">No</label>
+        </fieldset>
+
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Date-:26.10.23
+_____________________
+
+
+
+
+1.What is the use of the <table> tag in HTML?
+Ans:-The <table> tag in HTML is used to create structured, tabular data on a web page. It is one of the fundamental HTML elements for displaying data in a grid format, typically consisting of rows and columns. The <table> tag is often used in combination with other elements like <tr> (table row), <th> (table header), and <td> (table data cell) to define the structure of the table.
+
+
+
+
+ 2. What is the use of the <tr> tag in HTML? 
+Ans:-The <tr> tag in HTML is used to define a table row within an HTML table. It is an essential element for creating structured, tabular data on a web page. Each <tr> tag represents a single row within the table and contains one or more table cells (either header cells or data cells) defined using the <th> (table header) and <td> (table data cell) elements, respectively.
+
+
+3. What is the use of the <th> tag in HTML?
+Ans:-The <th> tag in HTML is used to define header cells within an HTML table. Header cells are typically used to label or describe the content of a column or row in a table. The <th> element provides semantic meaning to the content of a cell, indicating that it contains header information.
+
+
+ 4. What is the use of the <td> tag in HTML?
+Ans:-The <td> tag in HTML is used to define data cells within an HTML table. Data cells are used to display the actual content or data in the rows and columns of a table. The <td> element is a fundamental part of creating structured, tabular data on a web page.
+
+
+ 5. What is the use of the <caption> tag in HTML? 
+Ans:-The <caption> tag in HTML is used to add a title or caption to an HTML table. It provides a way to describe the purpose or content of the table, making it more accessible and understandable for users. The <caption> element is typically placed immediately after the opening <table> tag, and it is visually rendered above or below the table, depending on the CSS styling.
+
+
+6. What is the use of the <ul> tag in HTML? 
+Ans:-The <ul> tag in HTML is used to create an unordered list. An unordered list is a type of HTML list that presents items in a bulleted or unordered fashion. Each item in the list is typically preceded by a bullet point or some other marker, and the order of the items does not matter; they are not listed in a specific sequence.
+
+
+7. What is the use of the <ol> tag in HTML?
+Ans:-The <ol> tag in HTML is used to create an ordered list. An ordered list is a type of HTML list that presents items in a specific, sequential order, typically using numbers or other ordered markers to indicate the item's position in the list. Unlike unordered lists (created with the <ul> tag), the order of items in an ordered list is meaningful.
+
+
+ 8. What is the use of the <li> tag in HTML?
+Ans:-The <li> tag in HTML is used to define list items within an ordered list (<ol>) or an unordered list (<ul>). It is a fundamental element for creating lists, whether they are ordered (numbered or lettered) or unordered (bulleted or customized markers). The <li> element represents individual items within the list and is used to define the content of each item.
+
+
+
+
+ Write one HTML doc using above tags.
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Organizational Structure</title>
+</head>
+<body>
+    <h1>Company Organizational Structure</h1>
+    
+    <h2>Executive Team</h2>
+    <table border="1">
+        <caption>
+            <img src="https://seeklogo.com/images/C/company-eagle-wings-logo-385403947F-seeklogo.com.png" alt="Company Logo" width="100"> 
+            Executive Team
+        </caption>
+        <tr>
+            <th>Name</th>
+            <th>Title</th>
+        </tr>
+        <tr>
+            <td>John Smith</td>
+            <td>CEO</td>
+        </tr>
+        <tr>
+            <td>Jane Doe</td>
+            <td>COO</td>
+        </tr>
+        <tr>
+            <td>David Johnson</td>
+            <td>CFO</td>
+        </tr>
+    </table>
+    
+    <h2>Departments</h2>
+    <ul>
+        <li>Marketing</li>
+        <li>Sales</li>
+        <li>Product Development</li>
+    </ul>
+    
+    <h2>Teams</h2>
+    <ol>
+        <li>Marketing Team</li>
+        <li>Sales Team</li>
+        <li>Development Team</li>
+    </ol>
+</body>
+</html>
+
+
+
+
