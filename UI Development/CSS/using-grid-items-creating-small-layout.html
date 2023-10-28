@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid-items-css</title>
+    <style>
+        section{
+            display: grid;
+            grid-template-columns:24% 25% 25% 24% ;
+            grid-gap: 10px;
+        }
+        div{
+            background-color: darkmagenta;
+            padding: 20px;
+            text-align: center;
+        }
+        div:nth-child(1){
+           grid-column-start:2 ; 
+           grid-column-end: 5;
+           grid-row-start: 1;
+           grid-row-end: 2;
+
+
+        }
+        div:nth-child(2){
+            grid-column-start:1 ; 
+           grid-column-end:2 ;
+           grid-row-start: 1;
+           grid-row-end:5 ;
+
+            
+        }
+        div:nth-child(3){
+            grid-column-start: 2; 
+           grid-column-end: 3;
+           grid-row-start:2 ;
+           grid-row-end:4 ;
+
+            
+        }
+        div:nth-child(4){
+            grid-column-start:3 ; 
+           grid-column-end: 4;
+           grid-row-start:2 ;
+           grid-row-end: 4;
+
+            
+        }
+        div:nth-child(5){
+            grid-column-start:4 ; 
+           grid-column-end:5 ;
+           grid-row-start:2 ;
+           grid-row-end:3 ;
+
+            
+        }
+        div:nth-child(6){
+            grid-column-start:4 ; 
+           grid-column-end:5 ;
+           grid-row-start: 3;
+           grid-row-end:4 ;
+
+            
+        }
+        div:nth-child(7){
+            grid-column-start:2 ; 
+           grid-column-end: 5;
+           grid-row-start:4 ;
+           grid-row-end: 5;
+
+            
+        }
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <section>
+        <div>Header</div>
+        <div>Navigation</div>
+        <div>Card1</div>
+        <div>Card2</div>
+        <div>Card3</div>
+        <div>Card4</div>
+        <div>Footer</div>
+
+
+
+
+
+
+    </section>
+</body>
+</html>
