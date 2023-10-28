@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navbar-css-flex</title>
+    <style>
+      header {
+        border: 1px solid red;
+        display: flex;
+        align-items: center;
+      }
+      header section {
+        flex: 5;
+      }
+      header nav {
+        flex: 6;
+      }
+      header form {
+        flex: 1;
+      }
+      header ul li {
+        flex: 1;
+        list-style: none;
+      }
+      header ul li a {
+        text-decoration: none;
+      }
+      header img {
+        width: 300px;
+      }
+      header ul {
+        display: flex;
+      }
+      header button {
+        padding: 14px;
+        width: 150px;
+        border: 6px solid red;
+      }
+      header button:hover {
+        background-color: red;
+        border: none;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <section>
+        <img src="http://www.paritechsoft.com/images/logo.png" alt="" />
+      </section>
+      <nav>
+        <ul>
+          <li><a href="#">Company</a></li>
+          <li><a href="#">Service</a></li>
+          <li><a href="#">Technology</a></li>
+          <li><a href="#">AL & ML</a></li>
+          <li><a href="#">Data Science</a></li>
+          <li><a href="#">Hire Developer</a></li>
+        </ul>
+      </nav>
+      <form action="#">
+        <button>Request a Quote</button>
+      </form>
+    </header>
+  </body>
+</html>

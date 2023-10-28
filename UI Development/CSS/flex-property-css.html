@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flex-Property-CSS</title>
+    <style>
+      section {
+        border: 2px solid red;
+        margin: 10px;
+        padding: 10px;
+        display: flex;
+        /* height: 300px; */
+        /* flex-direction: row;
+        flex-wrap: wrap; */
+        /* flex-flow: row wrap; */
+        /*justify-content: space-evenly;
+        align-content: space-evenly; */
+        align-items: center;
+      }
+      div {
+        border: 1px solid;
+        margin: 10px;
+        padding: 10px;
+        flex: 1;
+      }
+      div:nth-child(1) {
+        background-color: red;
+        order: 10;
+      }
+      div:nth-child(2) {
+        background-color: rgb(115, 255, 0);
+      }
+      div:nth-child(3) {
+        background-color: rgb(0, 4, 255);
+      }
+      div:nth-child(4) {
+        background-color: rgb(255, 208, 0);
+        order: -1;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Flex -->
+    <section>
+      <div>item-1</div>
+      <div>item-2</div>
+      <div>item-3</div>
+      <div>item-4</div>
+      <!-- <div>item-1</div>
+      <div>item-1</div>
+      <div>item-1</div>
+      <div>item-4</div>
+      <div>item-1</div>
+      <div>item-1</div>
+      <div>item-1</div>
+      <div>item-4</div>
+      <div>item-1</div>
+      <div>item-1</div>
+      <div>item-1</div>
+      <div>item-4</div>
+      <div>item-1</div>
+      <div>item-1</div>
+      <div>item-1</div>
+      <div>item-4</div>
+      <div>item-1</div>
+      <div>item-1</div>
+      <div>item-1</div>
+      <div>item-4</div> -->
+    </section>
+  </body>
+</html>

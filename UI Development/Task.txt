@@ -745,3 +745,344 @@ Ans:-The <li> tag in HTML is used to define list items within an ordered list (<
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Date:--27.10.23
+______________________
+
+
+1. What is the use of the <div> tag in HTML? 
+Ans:-The <div> tag in HTML, short for "division," is a fundamental and versatile container element used to group and structure content within a web page. Its primary purpose is to divide and group related elements on a web page to apply styles or scripting to them collectively.
+
+
+2. What is the use of the <span> tag in HTML?
+Ans:-The <span> tag in HTML is an inline element used for grouping and applying styles or scripting to a specific portion of text or other inline content within a larger block of content. It does not add any visible formatting itself but allows you to target and manipulate a specific part of the content.
+Ex-
+<p>This is a <span style="color: blue;">blue</span> word in a sentence.</p>
+
+
+ 3. What is the use of the <meta> tag in HTML?
+Ans:-The <meta> tag in HTML is used to provide metadata about the document, which is information about the HTML document itself rather than the content within it. Metadata is not displayed on the web page but serves various important purposes. The <meta> tag is typically placed in the <head> section of an HTML document and is self-closing (i.e., it doesn't have a closing tag).
+Ex-
+<meta charset="UTF-8">
+
+
+ 4. What is the use of the <style> tag in HTML? 
+Ans:-The <style> tag in HTML is used to define and embed CSS (Cascading Style Sheets) directly within an HTML document. CSS is a stylesheet language that is used to control the presentation and layout of web page content. By using the <style> tag, you can define CSS rules that apply styles (such as colors, fonts, spacing, and positioning) to the HTML elements within the same document.
+
+
+5. What is the use of the <link> tag in HTML?
+Ans:-The <link> tag in HTML is used to establish relationships between the current HTML document and external resources, most commonly external stylesheets. It is primarily used for linking external CSS (Cascading Style Sheets) files to HTML documents, but it can also be used to establish links to other types of resources. The <link> tag is placed within the <head> section of an HTML document.
+Ex-
+<link rel="icon" type="image/png" href="favicon.png">
+
+
+ 6. What is the use of the <script> tag in HTML? 
+Ans:-The <script> tag in HTML is used to embed or reference client-side scripts, typically written in JavaScript, within an HTML document. JavaScript is a programming language that enables interactivity, dynamic behavior, and manipulation of the Document Object Model (DOM) of a web page. The <script> tag plays a key role in adding functionality to web pages.
+Ex-
+<script src="myscript.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+7. What is the difference between the <strong> and <em> tags in HTML?
+Ans:-
+<strong>
+<em>
+The <strong> tag is used to indicate text that is of strong importance or emphasis in HTML documents.
+The <em> tag is used for emphasizing text within HTML documents.
+It signifies that the enclosed text should be given strong emphasis for reasons such as seriousness or urgency.
+It signifies that the enclosed text should be emphasized for reasons such as importance, stress, or a change in tone.
+<strong> tag is typically rendered in bold, but the exact appearance can vary based on browser defaults and CSS.
+<em> tag is typically rendered in italics, but the exact appearance can vary based on browser defaults and CSS.
+<strong> tags within other HTML elements to indicate strong emphasis within a larger context.
+<em> tags within other HTML elements to indicate emphasis within a larger context.
+
+
+
+ 8. What is the difference between the <b> and <i> tags in HTML?
+Ans:-
+<b>
+<i>
+It is used to apply a bold styling to the enclosed text.
+It is used to apply an italic styling to the enclosed text.
+<b> tag will typically be displayed in a bold typeface.
+<i> tag will typically be displayed in an italic typeface.
+It is purely presentational and doesn't convey any information about the importance or structure of the enclosed text.
+It is purely presentational and doesn't convey any information about the importance or structure of the enclosed text.
+<b> tag within other HTML elements to apply bold formatting to specific parts of your content.
+ <i> tag within other HTML elements to apply italic formatting to specific parts of your content.
+
+
+
+
+
+ 9. What is the difference between the <br> and <hr> tags in HTML?
+Ans:-
+<br>
+<hr>
+The <br> tag is an empty or void element, which means it doesn't have a closing tag. You use it as a standalone tag within your HTML code.
+The <hr> tag is a self-closing tag and is used to insert a horizontal line across the webpage. It's typically a thematic break that can be used to separate content, such as sections, paragraphs, or other elements.
+it starts a new line immediately after it, without any vertical spacing.This can be useful for situations where you want to break text or content into separate lines without creating paragraphs.
+<hr> tag is to provide a visual separation between different parts of a webpage's content. It's often used to improve the readability and organization of the page.
+the <br> tag judiciously, as excessive line breaks can make your content difficult to read and navigate for people using screen readers or other assistive technologies.
+The <hr> tag is a void element, so it doesn't have a closing tag.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 10. What is the difference between the <ul> and <ol> tags in HTML?
+Ans:-
+<ul>
+<ol>
+<ul> stands for "unordered list" .
+<ol> stands for "ordered list" .
+It is used to define the beginning of an unordered list.
+It is used to define the beginning of an ordered list.
+Unordered lists are often displayed with bullet points by default, but the exact appearance of the bullet points can be customized using CSS.
+Ordered lists are typically displayed with numbers (or other ordered markers) before each list item. The numbering is automatic and reflects the order of the items.
+Unordered lists are commonly used for navigation menus, lists of features, or any list of items where the order is not important.
+Ordered lists are commonly used for lists that need to indicate a specific sequence, such as steps in a procedure, the ranking of items, or any list where the order is important.
+
+
+
+ 11. What is the difference between the <div> and <span> tags in HTML?
+ Write one HTML doc using above tags.
+Ans:-
+<div>
+<span>
+The <div> tag in HTML is a fundamental element used to create a container or a division within a web page.
+The <span> tag in HTML is another fundamental element, but it's an inline-level element that is used for various purposes, primarily for applying styles or scripting.
+It typically starts on a new line and stretches the full width of its parent container by default.
+<span> is an inline-level element. It doesn't create a new block but wraps content within the same line as the surrounding text or elements.
+
+
+
+
+
+
+
+
+
+
+
+Write one HTML doc using above tags.
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nature Exploration</title>
+    <!-- link tag -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <!-- Style tag use -->
+    <style>
+        .italic-text {
+            font-style: italic;
+        }
+
+
+        
+        .header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+
+        
+        .content {
+            background-color: #f2f2f2; 
+            border: 1px solid #ccc; 
+            padding: 20px;
+        }
+        span {
+        text-decoration: underline;
+        color: deeppink;
+      }
+
+
+        ul{
+            list-style-type: circle; 
+        }
+        ol {
+            list-style-type: disc; 
+        }
+
+
+
+
+
+
+
+
+        
+    </style>
+</head>
+<body>
+    <!-- div tag use -->
+    <div class="header">
+        <h1>Discover the Beauty of Nature</h1>
+    </div>
+    
+    <div class="content">
+        <!--<strong> and <em>  -->
+        <p>Take a moment to appreciate the <strong>strength</strong> and <em class="italic-text">beauty</em> of nature.</p>
+        <!-- <b> and <i> tag use -->
+        <p>Take a moment to <b style="color: darkmagenta;">appreciate</b> the strength and <i class="italic-text">beauty</i> of nature.</p>
+
+
+
+
+
+
+        <!-- <ul> and <span> tag use -->
+        <ul>
+            <li>Enjoy a peaceful hike through the lush <span class="italic-text">forests</span>.</li>
+            <li>Listen to the soothing sound of a <span class="italic-text">rushing river</span>.</li>
+            <li>Observe the diverse <span class="italic-text">wildlife</span> in their natural habitat.</li>
+        </ul>
+        <!-- <ol> and <span> tag use  -->
+        
+        <ol>
+            <li>Visit the majestic <span class="italic-text">mountain peaks</span>.</li>
+            <li>Explore the serene <span class="italic-text">deserts</span> and their unique landscapes.</li>
+            <li>Discover the mysteries of the deep <span class="italic-text">ocean</span>.</li>
+        </ol>
+        <!-- <hr> and <br> tag use -->
+        <p>This is a line break: <br></p>
+        <p>This is a horizontal rule: <hr></p>
+    </div>
+
+
+    <!-- script tag use -->
+    <script >
+        const a = 20;
+      console.log(a);
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
