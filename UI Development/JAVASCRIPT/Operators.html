@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operators in Javascript</title>
+</head>
+<body>
+    <h2>Operators in Javascript</h2>
+    <!-- 
+        operators - to perform some operations.
+
+        types
+        -Arithmetic(+,-,*,/,%,++,--)
+        -Assignment(==,+=,-=,/=)
+        -Comparision(==,===,<,>,<=,>=,!=)
+        -logical(&&,||,!)
+        -conditional / terinary (condition ? stayement : statement2)
+     -->
+    <script>
+        let a = 10;
+        let b = 20;
+        // console.log(a+b)
+        console.log(a % b)
+
+        // Increment and Decrement
+        // preincrement
+        // console.log(++a)
+
+        // postIncrement
+        //  console.log(a++)
+        // consoleole.log(a)
+
+        // predecrement
+        // console.log(--a)
+        // console.log(a)
+
+        // postdecrement
+        // console.log(a--)
+        // consoleole.log(a)
+
+        let x = 10;
+        let y = '10';
+        //  x += y // x = x + y
+        //  y += y
+        //  console.log(x)
+
+        //  comparision operator
+        console.log(x === y)
+
+        console.log(a!=b)
+
+        // logical operator
+        let marks = 50;
+        let attendence = 40;
+
+        // if(marks >= 50 && attendence > 60){
+        //     console.log("allow to practicals")
+        // }else{
+        //     console.log("not allowed")
+        // }
+
+        //ternary operator
+        (marks >= 50 && attendence > 60) ? console.log("allow to practicals") : console.log("not allowed")
+
+
+        let isClassThereToday = true
+        console.log(!isClassThereToday)
+
+        //falsy values
+        // false, 0, null, undefined, NaN, ""
+        
+        
+        
+
+    </script>
+</body>
+</html>

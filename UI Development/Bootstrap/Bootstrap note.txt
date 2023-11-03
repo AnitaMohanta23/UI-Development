@@ -1,0 +1,38 @@
+1.What is Bootstrap?
+Ans:-Bootstrap is the most popular HTML,CSS and Javascript Framework for developing a responsive and mobile friendly website.
+
+2.What is Framework?
+Ans:-Framework can save developers time.Developers can use these frameworks instead of doing everything from scratch because they provide a predefined codeset.
+
+3.What is responsive webdesign?
+Ans:-A Webpage can be adjusted their design as per the viewport.
+
+4.What is Viewport?
+Ans:-The Viewport area is the user-visible area on the device,The meta tag is used to set page content width as per viewport.
+
+5.What are the advantages of Bootstrap?
+Ans:-
+-Browser compatibility
+-Responsive Layout
+-speed up the development
+-compatible with the maximum number of devices in the market
+-Easy to learn
+-very less of code
+-It improves code.
+
+6. Why do we use Bootstrap?
+Ans:-
+-Open source front-end framework for fast webdevelopment.
+-premade HTML and CSS templates and classes.
+-Javascript wedgets and plugins.
+-Mobile-first responsive Layout.
+
+7.How to add Bootstrap to a project?
+Ans:-The bootstrap can be used in 2 ways:
+                              -By downloading the Bootstrap file.
+                               -using Bootstrap CDN Link.
+
+8. What is CDN Bootstrap?
+Ans:-CDN stands for-Content Delivery Network
+                    -Content Distribution Network.
+-It helps us to improve the rendering time and website performance.

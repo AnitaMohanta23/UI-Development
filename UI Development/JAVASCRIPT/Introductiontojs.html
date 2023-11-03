@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction to Javascript</title>
+</head>
+<body>
+    <h2>Introduction to Javascript</h2>
+    <!-- 
+        DataTypes - It determines what sort of data we should store in identifier.
+
+        two types of data types
+        - primitive data type 
+        - non-primitive data types
+
+        1. string
+        2. number
+        3. boolean
+        4. null
+        5. undefined
+        6. object
+        7. symbol
+
+     -->
+
+    <script>
+
+        // Declaration
+        let num;
+
+        // initilization
+        num = 123;
+
+        let num1 = 456; //number
+        let name = "Virat" // string
+        let isClassThereToday  = true // boolean
+        let fName = null;
+        console.log(fName)
+        let x;  // undefined
+        console.log(x)
+
+        console.log(typeof fName)
+
+        let studentDetails = {
+            name:"peter",
+            age:20,
+            course:'reactjs'
+        }
+
+        console.log(typeof studentDetails)
+
+        var a = 10;
+        var a = 20;
+        console.log(a)
+
+        let b = 20;
+          b = 40;
+          console.log(b)
+
+        const c = 30;
+
+        {
+            
+            let x = 10;
+            const y = 20;
+            var z = 30;
+            console.log(x)
+            console.log(y)
+        }
+        
+        console.log(z)
+
+
+
+
+    
+
+        // Identifier - An identifier is a sequence of characters in the code that 
+        // identifies a variable, function, or property
+
+        // rules of identrifiers
+        // 1. it should not be a reserved keyword.
+        // 2. it should not start with number.
+        // 3. it should not contain any special characters other than (_) and ($)
+    </script>
+</body>
+</html>
