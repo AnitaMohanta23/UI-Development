@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Star Printing Task</title>
+  </head>
+  <body>
+    <h1>Star Printing</h1>
+    <!-- 
+        1.   *
+             * *
+             * * *
+
+        2.   * * *
+             * *
+             *
+
+        3.    *
+            * * *
+          * * * * *
+    -->
+    <script>
+      // 1
+      for (let i = 0; i <= 4; i++) {
+        for (let j = 0; j <= i; j++) {
+          document.write("* ");
+        }
+        document.write("<br>");
+      }
+      document.write("<br>");
+
+      //   2
+      for (let i = 5; i >= 0; i--) {
+        for (let j = 1; j <= i; j++) {
+          document.write("* ");
+        }
+        document.write("<br>");
+      }
+      //   3
+      let n = 5;
+      for (let i = 1; i <= n; i++) {
+        let str = "* ";
+        let space = " ";
+        console.log(space.repeat(n - i) + str.repeat(i * 2 - 1));
+      }
+    </script>
+  </body>
+</html>

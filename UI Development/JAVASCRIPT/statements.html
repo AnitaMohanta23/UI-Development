@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Statements</title>
+</head>
+<body>
+    <h2>statements</h2>
+    <!-- 
+        condition 
+            to make decisions
+            - if condition
+            - if else
+            - else if condition
+            - switch condition
+
+        if(condition){
+            //code to execute
+        }
+
+        if(condition){
+            //code to execute
+        } else {
+            // code to execute
+        }
+
+        switch(statement){
+            case statement1:
+            break;
+            case statement2:
+            break;
+
+            default:
+        }
+     -->
+
+     <script> 
+     let a = 10, b = 20;
+        
+        // if(a>b){
+        //     document.write(`${a} is greater than ${b}`)
+        // } else {
+        //     document.write(`${b} is greater than ${a}`)
+        // }
+
+        // else if condition
+        let age = 10;
+
+        if(age>= 14){
+            console.log("student is allowed to admit high school")
+        } else if(age> 11 && age <= 13){
+            console.log("student is allowed to admit mid school")
+        } else if(age>=6 && age <=10){
+            console.log("student is allowed to admit elementary school")
+        }else {
+            console.log("student is allowed to pre school")
+        }
+
+        // alerts
+        // alert, prompt, confirm
+
+        // switch condition
+        const day = prompt("please Enter the day")
+        
+        switch(day){
+            case "sunday":
+                document.write('its sunday, time to relax')
+            break;
+            case "monday":
+            document.write('its Monday, go to work')
+            break;
+            case "Tuesday":
+            document.write('its tuesday, more work')
+            break;
+             case "Wednesday":
+            document.write('its Wednesday, two more days left ')
+            break;
+            case "Thursday":
+            document.write('its Thursday, one more day')
+            break;
+            case "friday":
+            document.write('its friday, lets party')
+            break;
+            case "saturday":
+            document.write('its saturday, more party')
+            break;
+            default:
+                document.write("Enter valid statement")
+        }
+
+        
+     </script>
+</body>
+</html>

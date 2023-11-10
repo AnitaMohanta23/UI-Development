@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String Methods in Js</title>
+</head>
+<body>
+    <!-- 
+        string - sequence of characters 
+        string is a primitive datatype
+
+        there are two ways to create strings
+        - string literal
+        - string constructor
+
+
+     -->
+     <script>
+        // string literal
+        // let name = "chaitanya"
+        // console.log(typeof name)
+
+        //string constructor
+        // let mobile = new String('oneplus')
+        // console.log(mobile)
+
+
+        // index always starts with 0 index
+        // length always starts with 1
+
+        let laptopName = 'Mac Book'
+        // console.log(laptopName.length)
+        // console.log(laptopName[4])
+
+        // lastIndex is always length - 1
+
+        // for(let i = 0; i<= laptopName.length - 1; i++){
+        //     console.log(laptopName[i])
+        // }
+
+
+        // string concatenation
+        let firstName = "virat"
+        let lastName = "kohli"
+
+        // let fullName = firstName + lastName
+        // console.log(fullName)
+
+
+
+    //    String Methods
+        // indexof() - returns the index of first occurence of the given characters
+
+        let cityName = "new Yorko"
+        // document.write(cityName.indexOf('o'))
+
+    //lastIndexOf()
+    // document.write(`lastIndexOf - ${cityName.lastIndexOf('o')}`)
+
+    // chartAt() - returns character at specfic index.
+
+    let strDef = "sequence Of Characters";
+    // document.write(strDef.charAt(4))
+
+    // charCodeAt() - returns ASCII code of the character at the index.
+            // document.write(strDef.charCodeAt(4))
+    
+    // substring() - extract some portion of a string
+    // console.log(strDef.substring(3, 6))
+
+    //split() - converts string into array
+    // console.log(strDef.split(' '))
+
+    //replace() - replace an old word into new word
+    // console.log(strDef.replace('sequence', 'group'))
+
+    // tolowerCase() it converts string to lowercase
+    // console.log(strDef.toLowerCase())
+
+    // toupperCase() it converts string to uppercase
+    // console.log(strDef.toUpperCase())
+     </script>
+</body>
+</html>
