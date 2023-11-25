@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objects in Javascript</title>
+</head>
+<body>
+    <h2>Objects in Javascript</h2>
+<!-- 
+
+      // object - An object is a non primitive data type. object holds multiple values in 
+     terms of key value pairs.
+      - object keys are always string
+
+      there are three ways to create an object
+      1. object literal
+      2. object constructor
+      3. constructor function
+
+ -->
+    <script>
+        const arr = ["peter", 25, "cs", 784788]
+        // console.log(arr.length<0)
+        const person = {
+            firstname: 'peter',
+            lastname: 'ms',
+            age: 25,
+            course: 'cs',
+            id: 784788
+        }
+
+        const car = {
+            Brand: 'Toyato',
+            color: 'black',
+            fuel: 'diesel',
+            price:'15l'
+        }
+
+    //  object literal
+        const laptop = {
+            color: 'black',
+            price: '20000',
+            processor:'intel processor',
+            os:'cromeOS'
+        }
+
+        // console.log(laptop.processor)
+
+        // we can access the properties in two ways
+        // - dot notation
+        // console.log(laptop.processor)
+
+        // bracket notation
+        // console.log(laptop['price'])
+
+        // const x = 'name';
+        // const name1 = person["last" + x]
+        // console.log(name1)
+
+        // person['country'] = 'USA'
+        // console.log(person)
+
+        // constructor way
+        // const obj1 = new Object()
+        // obj1.firstname = "virat";
+        // obj1.lastname = "kohli";
+
+        // console.log(obj1)
+
+        // object.keys()
+        // const keylist = Object.keys(person)
+        // console.log(keylist)
+
+
+        // object.values()
+        // const valuelist = Object.values(person)
+        // console.log(valuelist)
+
+        // object.entries()
+        // const entries = Object.entries(person)
+        // console.log(entries)
+
+        // object.create()
+        // const newperson = Object.create(person)
+        // console.log(newperson.firstname)
+
+        // object.assign()
+        // const newobj = Object.assign(person, laptop)
+        // console.log(newobj)
+
+        // person.age = 30
+
+        // object.freeze() - it will not allow to add new properties and also it will not 
+        //  allow to modify the existing property
+
+        // Object.freeze(person)
+        // person.age = 40
+
+        // object.seal() - it will not allow to add new properties and allows to modify 
+        // the existing property
+
+        // person.watch = "titan"
+        // console.log(person)
+        
+        // Object.seal(person)
+        // person.color = "red"
+
+        // console.log(person)
+
+        // person.age = 50
+
+
+    </script>
+</body>
+</html>

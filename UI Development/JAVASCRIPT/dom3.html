@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dom-3</title>
+    <style>
+      .container {
+        display: flex;
+      }
+
+      .flex-item {
+        flex: 1;
+      }
+
+      .box {
+        border: 1px solid grey;
+        padding: 20px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Dom</h1>
+    <!-- <section class="container">
+      <div class="box flex-item">peter</div>
+      <div class="box flex-item">jessica</div>
+      <div class="box flex-item">tony</div>
+    </section> -->
+    <!-- <section>
+      <div></div>
+      <div></div>
+      <div></div>
+    </section> -->
+
+    <script>
+      //create element
+      let parentEle = document.createElement("section");
+      let div1 = document.createElement("div");
+      let div2 = div1.cloneNode();
+      let div3 = div1.cloneNode();
+
+      // putting child element
+      parentEle.appendChild(div1);
+      parentEle.appendChild(div2);
+      parentEle.appendChild(div3);
+
+      //scripting text node  to place inside the divs
+      let text1 = document.createTextNode("peter");
+      let text2 = document.createTextNode("jessica");
+      let text3 = document.createTextNode("tony");
+
+      //putting text node inside divs
+      div1.appendChild(text1);
+      div2.appendChild(text2);
+      div3.appendChild(text3);
+
+      //adding attributes to html elements
+      parentEle.setAttribute("class", "container");
+      div1.setAttribute("class", "box flex-item");
+      div2.setAttribute("class", "box flex-item");
+      div3.setAttribute("class", "box flex-item");
+
+      document.querySelector("body").appendChild(parentEle);
+      parentEle.setAttribute("style", "background-color:red");
+      parentEle.setAttribute("style");
+      
+      //using iteration insert array
+      let studentList = ["peter", "jems", "jessica", "william", "thomash"];
+    </script>
+  </body>
+</html>

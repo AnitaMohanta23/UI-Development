@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math and Date object</title>
+</head>
+<body>
+    <h2>Math and Date object</h2>
+    
+    <script>
+        //math object
+        const price = 204.99;
+        // console.log(Math.PI)
+
+        // console.log(`round of ${price} is ${Math.round(price)}`)
+
+        // ceil - rounding always to nex value
+        // console.log(`ceil of ${price} is ${Math.ceil(price)}`)
+
+        // floor - rounding always to previos value
+        // console.log(`floor of ${price} is ${Math.floor(price)}`)
+
+        //Abs - gives the absolute value
+        // console.log(`absolute value of ${price} is ${Math.abs(price)}`)
+
+        //power of 
+        // console.log(`power of 10, 4  is ${Math.pow(10, 4)}`)
+
+        // square root
+        // console.log(`square root of 16 is ${Math.sqrt(16)}`)
+
+        // maximum
+        //  console.log(`maximum number of 22,45,64,23,865,444 is ${Math.max(22,45,64,23,865,444)}`)
+        
+        //  minimum
+        //  console.log(`minimum number of 22,45,64,23,865,444 is ${Math.min(22,45,64,23,865,444)}`)
+
+        //  trucate
+        // console.log(`Truncate of 12.56 is ${Math.trunc(12.56)}`)
+
+        // random 
+        console.log(Math.random() * 10000)
+
+        // date 
+        const today = new Date()
+        console.log(today)
+
+        console.log(`Today day is ${today.getDay()}`)
+
+        const days = ['sun', 'mon', 'tue','wed', 'thu', 'fri', 'sat']
+
+        console.log(days[today.getDay()])
+
+        console.log(`${today.getMonth()}`)
+
+        console.log(`${today.getFullYear()}`)
+
+        console.log(`${today.getHours()}`)
+
+        console.log(`${today.getMilliseconds()}`)
+
+
+    </script>   
+</body>
+</html>

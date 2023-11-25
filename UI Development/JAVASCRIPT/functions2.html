@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Functions 2</title>
+</head>
+<body>
+    <h2>Functions 2</h2>
+    <button>Click here</button>
+    <script>
+        // let multiply = function(num1, num2){
+        //     return num1 * num2
+        // }
+
+        // let res = multiply(3, 2)
+        // console.log(res)
+
+        // arrow function
+        // let multiply = (num1, num2) => {
+        //     return num1 * num2
+        // }
+
+        // let res = multiply(3, 2)
+        // console.log(res)
+
+        // function with default parameter
+        function subtraction(num1, num2, num3=2){
+            console.log(num3)
+            const res = num1-num2-num3;
+            console.log(res)
+        }
+       let finalsub = subtraction(10, 5, 20)
+
+       const apple ={
+        brand : 'apple',
+        model: 'iphone 14',
+        info: function(){
+            console.log('release on dec 20')
+        }
+       }
+
+       console.log(apple.brand)
+       apple.info()
+
+       const btn = document.querySelector('button')
+       btn.addEventListener('click', ()=>{
+        alert('button clicked')
+       })
+
+       
+    console.log(NaN === NaN)
+    
+    // Tasks
+    //  write a function Reverse a string in JavaScript?
+    // write a function to verify a word as palindrome?
+    // Generate random between 5 to 7 by using defined function.
+    // merge two sorted array?
+    // Remove duplicate members from an array?
+
+    </script>
+</body>
+</html>

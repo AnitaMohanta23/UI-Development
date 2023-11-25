@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Methods in Javascript</title>
+</head>
+<body>
+    <h2>Array Methods in Javascript</h2>
+    <!-- 
+        Array - continuous memory allocation of same or different types.
+        - an array can be accessed using zero based index  eg, arr[0]
+        - An array index must be numeric
+
+        there are two ways to create an array
+        1. array literal
+        2. array constructor
+
+        syntax: let <array_name> = [element0, element1, element2]
+     -->
+
+     <script>
+        //array literal 
+        let numbers = ['one', 'two', 'three']
+
+        // console.log(typeof numbers)
+
+        //array constructor
+        let smartPhones = new Array('iphone', 'samsung', 'onePlus')
+        // console.log(typeof smartPhones)
+
+        // Iterate over an array
+        const cities = [ 'Bangalore', 'chennai', 'Mumbai', 'Hyderabad', 'Pune' ]
+
+        // for(let i=0; i<cities.length; i++){
+        //     console.log(cities[i])
+        // }
+
+        // Array Methods
+        // push() - adds one or more values into an array at the last position.
+        // cities.push('new Delhi', 'noida')
+        // console.log(cities)
+
+        // pop() -it removes an item from an array at last position.
+        // cities.pop()
+        // console.log(cities)
+
+        //shift() - remove an item form an array at the beggining position.
+        // cities.shift()
+        // console.log(cities)
+
+        //unshift() - adds one or more values into an array at the beggining position
+        // cities.unshift('bangalore', 'kolkata')
+        // console.log(cities)
+
+        //indexOf - to get the index of element
+    //    console.log(cities.indexOf('kolkata'))
+
+       //includes - evaluate the given elements exist in the array 
+    //    console.log(cities.includes('chennai'))
+
+    //    concat() - this method creates a new array by merging the existing arrays.
+    // const newArr = cities.concat(smartPhones)
+    // console.log(newArr)
+
+    // slice() - extract part of an array.
+    // console.log(cities.slice(1, 4))
+
+
+    //splice(from index, length, new element)
+    console.log(cities)
+    cities.splice(3,0, 'bokara') 
+    console.log(cities)
+
+    //join() - it converts an array into a string.
+    console.log(cities.join('-'))
+    
+    // reverse() - it reverse the order of array
+            console.log(cities.reverse())
+
+    // tasks 
+    // reverese a string with method and without method
+    
+    
+const int = [19,4,9,19,4,6,34,6]
+        //remove the duplicates 
+        // output - [19,4,9,6,34]
+		
+		//2- checks if a given string is a palindrome (reads the same forwards and backward). 
+		//For example, "racecar" is a palindrome.
+		
+		//3- takes a string and returns the string reversed. 
+		//For example, "development" should become "tnempolevod"
+		
+		//4-combines two arrays into a single array, 
+		//with elements from both arrays, without duplicates.
+		
+		//5-  transforms an array of strings to title case (capitalizes the first letter of each word).
+     </script>
+</body>
+</html>

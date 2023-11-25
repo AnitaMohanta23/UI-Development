@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Functions in Javascript</title>
+</head>
+
+<body>
+    <h2>Functions in Javascript</h2>
+    <!-- 
+        function  - 
+        - it's a subroutine contains a set of statements/block of code, which can 
+        perform some specfic task.
+
+        - Functions can be reusable / can execute as many times.
+
+        Rules while creating a funciton
+        - shoun't start with number.
+        - shouldn't be a reserved word such as var,if..
+        - shouldn't contain any special character other than (_)
+
+        1.function Declaration
+        syntax: 
+        function <function_name>(){
+            //code to executed    
+        }
+        <function_name>()
+
+        2.return
+            - A function can return zero or one value using return keyword
+            - A function can return another function
+
+     -->
+
+    <script>
+        // function declaration
+        function greet() {
+            console.log('Hello World!!')
+        }
+
+        greet()
+
+        // return
+        function addTwoNums(num1, num2) {
+            const res = num1 + num2
+            console.log('before return')
+            return res;
+            console.log('after return')
+        }
+
+        let finalVal = addTwoNums(10, 20)
+        console.log(finalVal)
+
+        // utility funciton
+        function fruitProcessor(apples, oranges) {
+            const applePieces = cutfruits(apples)
+
+            const orangePieces = cutfruits(oranges)
+
+            console.log(`Juice with ${applePieces} pieces of apple and ${orangePieces} pieces of orange`)
+        }
+
+        function cutfruits(fruit) {
+            return fruit * 4
+        }
+
+        fruitProcessor(5, 3)
+
+
+        // function Expression
+        let FuncExp = function () {
+            //    let value =  prompt('Enter a value')
+            //    console.log(value)
+            console.log('this is funciton expression')
+        }
+
+        FuncExp()
+
+        // nested function
+        
+        function parentfunction() {
+            console.log('parent funciton')
+            function childFunction() {
+                console.log('child function')
+            }
+            childFunction()
+        }
+
+        parentfunction()
+        // childFunction()
+
+    </script>
+</body>
+
+</html>

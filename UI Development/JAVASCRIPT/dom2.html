@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM2</title>
+    <style>
+        .container {
+            display: flex;
+        }
+
+        .flexItems {
+            flex: 1
+        }
+
+        .box {
+            border: 1px solid grey;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div></div>
+    <figure id="figure">
+        <img src="https://www.achieversit.com/assets/images/logo-white.png" alt="ait" />
+        <figcaption>achieversIt</figcaption>
+    </figure>
+
+    <ul>
+        <li>ANGULAR</li>
+        <li>REACT</li>
+        <li>vue</li>
+    </ul>
+
+    <ul>
+        <li>ANGULAR</li>
+        <li>REACT</li>
+        <li>vue</li>
+    </ul>
+    <ul>
+        <li>ANGULAR</li>
+        <li>REACT</li>
+        <li>vue</li>
+    </ul>
+
+    <p class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia consequatur ex est distinctio at
+        laboriosam! Molestiae unde quam fuga error sit minima ea autem aliquid.</p>
+    <input type="text" />
+
+    <section class="container">
+
+    </section>
+    <!-- 
+        selectors - which helps us to select an element
+        1 - getElementById() - we can select an element using id attribute
+        2 - getElementByTagName() - we can select an element using tagname.
+        3 - getElementsByClassName() - we can select an element using classname
+        4 - querySelector() - we can select an element by using any selector which 
+        you know in css. but it returns only first occurance.
+        5 - querySelectorAll() - we can select an element by using any selector which 
+        you know in css. but it returns all the selected elements.
+     -->
+
+    <script>
+        // getElementById()
+        document.getElementById('figure').style.border = "1px solid red"
+
+        //getElementsByTagName()
+        document.getElementsByTagName('ul')[2].style.border = "2px dotted green"
+
+        //getElementsByClassName()
+        document.getElementsByClassName('para')[0].style.color = "brown"
+
+        //querySelector()
+        document.querySelector('ul li').style.color = "blue"
+
+        //querySelectorAll()
+        document.querySelectorAll('ul li')[4].style.color = "green"
+
+        const students = ['ravi', 'suresh', 'naresh', 'dileep']
+
+        // let parentEle = `
+        //     <section>
+        //         <div>${students[0]}</div>    
+        //         <div>${students[1]}</div>    
+        //         <div>${students[2]}</div>    
+        //         <div>${students[3]}</div>    
+        //     </section>
+        // `
+        // document.getElementsByTagName('div')[0].innerHTML = parentEle
+
+        let str = ''
+
+        for (let i = 0; i < students.length; i++) {
+            str += `<div class="flexItems box">${students[i]}</div>`
+        }
+
+        console.log(str)
+
+        document.querySelector('section').innerHTML = str;
+
+        const userData = [
+            {
+                "id": 1,
+                "name": "Leanne Graham",
+                "username": "Bret",
+                "email": "Sincere@april.biz",
+            },
+            {
+                "id": 1,
+                "name": "Leanne Graham",
+                "username": "Bret",
+                "email": "Sincere@april.biz",
+            },
+        ]
+    </script>
+</body>
+
+</html>
