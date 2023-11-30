@@ -1,0 +1,39 @@
+1.What is GitHUb ?
+
+Ans:
+-Git is a distributed version control tool that can manage a development project's  source code history.Git is a tool a developer installs locally on their computer.
+
+-GitHub is a cloud based platform built around the Git tool. GitHub is an online service that stores code pushed to it from computers running the Git tool.
+
+
+Version Control
+_____________________________________
+
+- Version control,also known as source control, is the practice of tracking and managing changes to software code.
+-Version control systems are software tools that helps software teams manage changes to source code over time.
+
+
+What does Git do?
+________________________________
+
+-Manage Projects with Repositories.
+-Clone a project to work on a local copy
+-pull the latest version of the project to a local copy
+-Push local updates to the main projects.
+- Branch and Merge to allow for work on different parts and versions of a project.
+
+
+Why Git and GitHub?
+___________________________
+
+- Over 70% of developers use Git!
+-Developers can work together from any where in the world.
+-Developers can see the full history of the project.
+-Developers can revert to earlier versions of the project.
+-Github makes tools that use Git.
+-GitHub is the largest host of source code in the world, and has been owened by microsoft since 2018.
+
+Git Repository
+______________________
+-A Git repository is a central storage location for managing and tracking changes in files and directories.
+-It is a crucial component of the Git version control system,which enables collaborative development and allows multiple developers to work on a project simultaneously

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form validation</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4 text-center">
+                <h2>contact Us</h2>
+                <form>
+                    <div class="mt-1">
+                        <input type="text" id="name-value" placeholder="Enter your first Name" class="form-control" />
+                    </div>
+                    <p id="name-err" class="text-danger"></p>
+                    <div class="mt-1">
+                        <input type="email" id="email-value" placeholder="Enter your email" class="form-control" />
+                    </div>
+                    <p id="email-err"></p>
+                    <div class="mt-1">
+                        <input type="password" id="password-value" placeholder="Enter your password" class="form-control" />
+                    </div>
+                    <p id="pwd-err"></p>
+                    <div class="mt-1">
+                        <input type="number" id="number-value" placeholder="Enter your number" class="form-control" />
+                    </div>
+                    <p id="number-err"></p>
+                    <div class="mt-1">
+                        <input type="text" id="gender-value" placeholder="Enter your first Name" class="form-control" />
+                    </div>
+                    <p id="gender-err"></p>
+                    <div class="mt-1">
+                        <input type="text" id="occ-value" placeholder="Enter your occupation" class="form-control" />
+                    </div>
+                    <p id="occ-err"></p>
+
+
+                    <button id="btn" class="btn btn-primary mt-3">Submit</button>
+                </form>
+            </div>
+            <div class="col-md-4"></div>
+        </div>
+    </div>
+
+    <script>
+        const nameValue = document.getElementById('name-value')
+        const emailValue = document.getElementById('email-value')
+        const pwdValue = document.getElementById('password-value')
+        const phoneValue = document.getElementById('number-value')
+        const genValue = document.getElementById('gender-value')
+        const occValue = document.getElementById('occ-value')
+
+        const addBtn = document.getElementById('btn')
+
+        //seleting error fields
+        const nameErr = document.getElementById('name-err')
+        const emailErr = document.getElementById('email-err')
+        const pwdErr = document.getElementById('pwd-err')
+        const phoneErr = document.getElementById('phone-err')
+        const genErr = document.getElementById('gen-err')
+        const occErr = document.getElementById('occ-err')
+
+        nameValue.addEventListener('keyup', validateName)
+
+
+        function validateName(){
+            const name = nameValue.value
+         
+            if(name.length == 0){
+                nameErr.innerHTML = "name is required"
+                addBtn.disabled = true
+                return false
+            }
+
+            nameErr.innerHTML = ""
+            addBtn.disabled = false
+            return true
+        }
+    </script>
+</body>
+
+</html>

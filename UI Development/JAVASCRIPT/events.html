@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events in js</title>
+</head>
+<body>
+    <h2>Events in Js</h2>
+    <!-- //inline events  -->
+    <button>Click Here</button>
+<!-- 
+    Event - is a action that can be triggered by the 
+    end user to interact with web/ mobile page
+
+    there are two ways to handle events
+        - inline event handling
+        - addeventlistener method
+ -->
+   
+
+    <script>
+        // addEventListener
+
+        function clickHandler(){
+            alert('button clicked')
+        }
+
+        // const btn = document.querySelector('button')
+        // btn.addEventListener('click', () => {
+        //     alert('button was clicked')
+        // })
+
+        //setTimeout and setinterval 
+
+        //setTimeOut()
+        // syntax
+        // setTimeout(function(){}, time in milliseconds)
+
+        // setTimeout(function(){
+        //     alert('timer done')
+        // }, 5000)
+
+        // setInterval()
+        let i = 1;
+        
+        // const timer = setInterval(function(){
+        //     console.log(i)
+        //     i++
+
+        //     if(i>5){
+        //         clearInterval(timer)
+        //     }
+        // }, 1000)
+
+        // setTimeout(() => {
+        //     btn.removeEventListener('click', clickHandler())
+        // }, 1000)
+
+        // event Object
+        let btn = document.querySelector('button')
+
+        btn = addEventListener('click', function(event){
+            console.log(event.target)
+        })
+    </script>
+</body>
+</html>
